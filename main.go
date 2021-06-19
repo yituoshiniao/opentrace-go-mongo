@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	ctx := context.TODO()
+	ctx := context.TODO() //注意这里是演示使用，在正式项目中请使用生成trace链路追踪的ctx
 	uri := "mongodb://localhost:27017"
 	listener := &trace.Trace{}
 	trace := &event.CommandMonitor{
