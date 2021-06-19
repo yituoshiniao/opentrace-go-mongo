@@ -1,8 +1,10 @@
-# opentracing go-mongo
+# opentracing-go-mongo   author: smgano@163.com
 
 
+#git clone https://github.com/yituoshiniao/opentracing-go-mongo.git
 
 ## Install
+go get -u github.com/yituoshiniao/opentracing-go-mongo
 
 
 ## Usage
